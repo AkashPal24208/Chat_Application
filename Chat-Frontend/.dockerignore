@@ -1,0 +1,33 @@
+# Dependencies
+node_modules
+npm-debug.log*
+yarn-error.log
+pnpm-lock.yaml.lock
+
+# Build outputs
+dist
+build
+.next
+.nuxt
+.output
+
+# Environment & Secrets
+.env
+.env.*
+!.env.production   # Agar aapko production env explicitly chahiye (optional, handle with care)
+
+# Version Control & IDE
+.git
+.gitignore
+.vscode
+.idea
+
+# Documentation & Docker configs
+README.md
+Dockerfile
+docker-compose.yml
+*.md
+
+# OS Files
+.DS_Store
+Thumbs.db
