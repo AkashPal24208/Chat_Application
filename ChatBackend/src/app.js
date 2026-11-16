@@ -7,7 +7,11 @@ const app = express();
  * @description setUp cors 
  */
 app.use(cors({
-  origin: ["http://localhost:5173", "http://localhost:82"],
+  origin: [
+    "http://localhost:5173",
+    "http://localhost:82",
+    "https://chat-application-git-main-akash-47e7.vercel.app"
+  ],
   credentials: true
 }));
 /**
