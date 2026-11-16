@@ -11,7 +11,11 @@ const server = http.createServer(app);
 // attach socket.io
 const io = new Server(server, {
   cors: {
-    origin: ["http://localhost:5173", "http://localhost:82"],
+    origin: [
+      "http://localhost:5173",
+      "http://localhost:82",
+      "https://chat-application-8lccbmh4i-akash-47e7.vercel.app"
+    ],
     methods: ["GET", "POST"],
     credentials: true
   }
